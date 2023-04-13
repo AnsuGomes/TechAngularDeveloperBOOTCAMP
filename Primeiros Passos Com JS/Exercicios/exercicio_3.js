@@ -2,7 +2,7 @@
     Elabora um algoritimo que calcule o que deve ser pago por um produto, considerando o preço normal 
     de etiqueta e a escolha da condição de pagamento.
 
-    Codigo de pagamento:
+    formaDePagamento:
    1 - A vista Débito, recebe 10 % de desconto;
    2 - A vista no Dinheiro ou PIX, recebe 15% de desconto;
    3 - Em duas vezes, preço normal de etiqueta sem juros;
