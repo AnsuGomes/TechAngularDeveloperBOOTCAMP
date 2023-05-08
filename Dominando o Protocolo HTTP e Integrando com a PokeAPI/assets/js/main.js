@@ -29,7 +29,7 @@ fetch(url)
     .then((jsonBody) => jsonBody.results)
     .then((pokemons) => {
 
-        for (let i = 0; index < pokemons.length; i++) {
+        for (let i = 0; i < pokemons.length; i++) {
             const pokemon = pokemons[i];
             pokemonList.innerHTML += convertPokemonToLi(pokemon)
         }
